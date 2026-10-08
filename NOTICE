@@ -4,3 +4,9 @@ Modell-Repo des RAG-Lernsystems (Android). Die Dateien in den Releases sind unve
 - EmbeddingGemma 2 270M (LiteRT-LM), https://huggingface.co/litert-community/embeddinggemma-2-text-270m-litert-lm, Apache License 2.0
 
 Copyright der Modelle: Google LLC und Beitragende. Der Lizenztext steht in LICENSE. Dieses Repo ändert die Gewichte nicht.
+
+Stimmenpaket (Release v2, optional, für die Offline-Sprachausgabe):
+- Stimme „Thorsten“ (de_DE, medium): Thorsten-Voice-Datensatz von Thorsten Müller, CC0 1.0, https://github.com/thorstenMueller/Thorsten-Voice
+- Modell: Piper VITS (rhasspy/piper), MIT-Lizenz, in der Form des sherpa-onnx-Modellreleases von k2-fsa (Apache-2.0)
+- espeak-ng-data: Daten von eSpeak NG, GNU General Public License v3 oder später, https://github.com/espeak-ng/espeak-ng
+  (Die App, die dieses Paket zusammen mit sherpa-onnx/espeak-ng verwendet, unterliegt für diesen Teil den Bedingungen der GPL.)

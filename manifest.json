@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": "v1",
+  "release": "v2",
   "minAppVersion": 1,
   "licenseUrl": "https://github.com/edgebird-lab/lernsystem-modelle/blob/main/LICENSE",
   "models": [
@@ -60,6 +60,30 @@
           "sha256": "2d079ee2f6f066b1f368e8d7c819f55214eaef1d0513b312321901f30ab286fb",
           "urls": [
             "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v1/embeddinggemma-2-text-270m.litertlm.part1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice-de-thorsten",
+      "role": "tts",
+      "title": "Stimme für die Sprachausgabe (Thorsten, Deutsch)",
+      "source": "https://github.com/thorstenMueller/Thorsten-Voice",
+      "minRamMb": 2000,
+      "version": "v2",
+      "fileName": "voice-de-thorsten-medium.zip",
+      "size": 58951888,
+      "sha256": "e879f39e539a3d6bc1a083826e1e25c463711e19b59b8795a1b450545c34fd86",
+      "license": "CC0-1.0 (Stimme), MIT (Piper), GPL-3.0-or-later (espeak-ng-Daten)",
+      "optional": true,
+      "unpack": "tts-de",
+      "parts": [
+        {
+          "name": "voice-de-thorsten-medium.zip",
+          "size": 58951888,
+          "sha256": "e879f39e539a3d6bc1a083826e1e25c463711e19b59b8795a1b450545c34fd86",
+          "urls": [
+            "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v2/voice-de-thorsten-medium.zip"
           ]
         }
       ]
