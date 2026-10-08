@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "release": "v1",
+  "minAppVersion": 1,
+  "licenseUrl": "https://github.com/edgebird-lab/lernsystem-modelle/blob/main/LICENSE",
+  "models": [
+    {
+      "id": "gemma-4-e2b-it",
+      "role": "llm",
+      "title": "Gemma 4 E2B (Sprachmodell)",
+      "source": "https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm",
+      "minRamMb": 6000,
+      "version": "v1",
+      "fileName": "gemma-4-E2B-it.litertlm",
+      "size": 2588147712,
+      "sha256": "181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c",
+      "license": "Apache-2.0",
+      "parts": [
+        {
+          "name": "gemma-4-E2B-it.litertlm.part1",
+          "size": 1073741824,
+          "sha256": "f2e5b3452a79cb904fdb396b83b4abe4d8f56832fd7daade3198a8034b688d7d",
+          "urls": [
+            "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v1/gemma-4-E2B-it.litertlm.part1"
+          ]
+        },
+        {
+          "name": "gemma-4-E2B-it.litertlm.part2",
+          "size": 1073741824,
+          "sha256": "fc9c74aca96379546da797e96c201623810e9cbab3765bb891cfb632bcab0e4f",
+          "urls": [
+            "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v1/gemma-4-E2B-it.litertlm.part2"
+          ]
+        },
+        {
+          "name": "gemma-4-E2B-it.litertlm.part3",
+          "size": 440664064,
+          "sha256": "743c9802f8d44ebf88a8a8ad4c42241c55f910b09b387e68336ef57435c3824d",
+          "urls": [
+            "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v1/gemma-4-E2B-it.litertlm.part3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "embeddinggemma-2-270m",
+      "role": "embedding",
+      "title": "EmbeddingGemma 2 (Suche)",
+      "source": "https://huggingface.co/litert-community/embeddinggemma-2-text-270m-litert-lm",
+      "minRamMb": 2000,
+      "version": "v1",
+      "fileName": "embeddinggemma-2-text-270m.litertlm",
+      "size": 164626432,
+      "sha256": "2d079ee2f6f066b1f368e8d7c819f55214eaef1d0513b312321901f30ab286fb",
+      "license": "Apache-2.0",
+      "parts": [
+        {
+          "name": "embeddinggemma-2-text-270m.litertlm.part1",
+          "size": 164626432,
+          "sha256": "2d079ee2f6f066b1f368e8d7c819f55214eaef1d0513b312321901f30ab286fb",
+          "urls": [
+            "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v1/embeddinggemma-2-text-270m.litertlm.part1"
+          ]
+        }
+      ]
+    }
+  ]
+}

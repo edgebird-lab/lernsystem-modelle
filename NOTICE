@@ -1,0 +1,6 @@
+Modell-Repo des RAG-Lernsystems (Android). Die Dateien in den Releases sind unveränderte Kopien (nur in Teile zerlegt) von:
+
+- Gemma 4 E2B (LiteRT-LM), https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm, Apache License 2.0
+- EmbeddingGemma 2 270M (LiteRT-LM), https://huggingface.co/litert-community/embeddinggemma-2-text-270m-litert-lm, Apache License 2.0
+
+Copyright der Modelle: Google LLC und Beitragende. Der Lizenztext steht in LICENSE. Dieses Repo ändert die Gewichte nicht.
