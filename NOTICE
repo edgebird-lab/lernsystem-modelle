@@ -10,3 +10,8 @@ Stimmenpaket (Release v2, optional, für die Offline-Sprachausgabe):
 - Modell: Piper VITS (rhasspy/piper), MIT-Lizenz, in der Form des sherpa-onnx-Modellreleases von k2-fsa (Apache-2.0)
 - espeak-ng-data: Daten von eSpeak NG, GNU General Public License v3 oder später, https://github.com/espeak-ng/espeak-ng
   (Die App, die dieses Paket zusammen mit sherpa-onnx/espeak-ng verwendet, unterliegt für diesen Teil den Bedingungen der GPL.)
+
+Weitere Stimmenpakete (Release v3, optional):
+- „LJSpeech“ (en_US, medium und high): LJ Speech Dataset von Keith Ito, Public Domain, https://keithito.com/LJ-Speech-Dataset/
+- „Thorsten“ (de_DE, high): Thorsten-Voice-Datensatz von Thorsten Müller, CC0 1.0 (wie oben)
+- Modelle und espeak-ng-Daten wie beim Paket oben (Piper MIT, sherpa-onnx Apache-2.0, espeak-ng GPL-3.0 oder später)

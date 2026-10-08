@@ -11,3 +11,12 @@ Lizenz: Apache 2.0, siehe LICENSE und NOTICE.
 ## Stimmenpaket (Release v2)
 
 `voice-de-thorsten-medium.zip` enthält die deutsche Piper-Stimme „Thorsten“ samt der für Deutsch nötigen espeak-ng-Daten für die Offline-Sprachausgabe der App (optional, ca. 59 MB). Bauen: `bash tools/make_voice_pack.sh dist`; der Eintrag steht in `manifest.json` (`optional`, `unpack`). Lizenzen siehe NOTICE (Stimme CC0, Piper MIT, espeak-ng-Daten GPL-3.0+).
+
+## Weitere Stimmen (Release v3)
+
+Der Katalog in `manifest.json` enthält mehrere Stimmen (`role: "tts"`, `lang`, `optional`, `unpack`); die App zeigt sie unter „KI-Modelle“ zum Laden an und nutzt je App-Sprache die gewählte Stimme. Neue Stimme aufnehmen:
+
+1. Paket bauen: `bash tools/make_voice_pack.sh <sherpa-Name> <Sprache> "<Anzeigename>" "<Lizenz-Zeile>" dist` (nur Stimmen mit freier Lizenz, die eine Weitergabe erlauben; Lizenz im Paket mitgeben).
+2. ZIP als Release-Asset hochladen und einen Eintrag in `manifest.json` ergänzen (`id`, `lang`, `title`/`titleEn`, `unpack` = `tts-<sprache>-<name>`, Größe, SHA-256, URL).
+
+Eigene Stimmen kann man auch ohne Repo in der App importieren („Eigene Stimme importieren“, ZIP im selben Aufbau: `model.onnx`, `tokens.txt`, `espeak-ng-data/`, optional `voice.json` mit `{"name": "…", "lang": "de"|"en"}`).
