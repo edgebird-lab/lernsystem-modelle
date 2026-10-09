@@ -40,7 +40,8 @@
             "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v1/gemma-4-E2B-it.litertlm.part3"
           ]
         }
-      ]
+      ],
+      "relSpeed": 1.0
     },
     {
       "id": "gemma-4-e4b-it",
@@ -50,8 +51,8 @@
       "source": "https://huggingface.co/litert-community/gemma-4-E4B-it-litert-lm",
       "minRamMb": 10000,
       "optional": true,
-      "description": "Größer als E2B: etwas gründlichere Antworten, aber ungefähr halb so schnell und mit mehr Arbeitsspeicher. Empfohlen ab 12 GB RAM. Ersetzt E2B (nur eines ist aktiv).",
-      "descriptionEn": "Larger than E2B: somewhat more thorough answers, but about half as fast and needs more memory. Recommended from 12 GB RAM. Replaces E2B (only one is active).",
+      "description": "Größer als E2B: etwas gründlichere Antworten, aber spürbar langsamer (rund ein Drittel weniger Tempo) und mit mehr Arbeitsspeicher. Empfohlen ab 12 GB RAM. Ersetzt E2B (nur eines ist aktiv).",
+      "descriptionEn": "Larger than E2B: somewhat more thorough answers, but noticeably slower (about a third less speed) and needs more memory. Recommended from 12 GB RAM. Replaces E2B (only one is active).",
       "version": "v4",
       "fileName": "gemma-4-E4B-it.litertlm",
       "size": 3659530240,
@@ -90,7 +91,8 @@
             "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v4/gemma-4-E4B-it.litertlm.part4"
           ]
         }
-      ]
+      ],
+      "relSpeed": 0.7
     },
     {
       "id": "embeddinggemma-2-270m",
