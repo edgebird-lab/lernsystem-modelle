@@ -12,6 +12,9 @@ PART = 1 << 30
 REPO = "edgebird-lab/lernsystem-modelle"
 META = {
     "e2b": dict(id="gemma-4-e2b-it", role="llm", title="Gemma 4 E2B (Sprachmodell)", source="https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm", minRamMb=6000),
+    "e4b": dict(id="gemma-4-e4b-it", role="llm", title="Gemma 4 E4B (größeres Sprachmodell)", titleEn="Gemma 4 E4B (larger language model)", source="https://huggingface.co/litert-community/gemma-4-E4B-it-litert-lm", minRamMb=10000, optional=True,
+                description="Größer als E2B: etwas gründlichere Antworten, aber ungefähr halb so schnell und mit mehr Arbeitsspeicher. Empfohlen ab 12 GB RAM. Ersetzt E2B (nur eines ist aktiv).",
+                descriptionEn="Larger than E2B: somewhat more thorough answers, but about half as fast and needs more memory. Recommended from 12 GB RAM. Replaces E2B (only one is active)."),
     "emb": dict(id="embeddinggemma-2-270m", role="embedding", title="EmbeddingGemma 2 (Suche)", source="https://huggingface.co/litert-community/embeddinggemma-2-text-270m-litert-lm", minRamMb=2000),
 }
 

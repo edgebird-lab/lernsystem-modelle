@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": "v3",
+  "release": "v4",
   "minAppVersion": 1,
   "licenseUrl": "https://github.com/edgebird-lab/lernsystem-modelle/blob/main/LICENSE",
   "models": [
@@ -38,6 +38,56 @@
           "sha256": "743c9802f8d44ebf88a8a8ad4c42241c55f910b09b387e68336ef57435c3824d",
           "urls": [
             "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v1/gemma-4-E2B-it.litertlm.part3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemma-4-e4b-it",
+      "role": "llm",
+      "title": "Gemma 4 E4B (größeres Sprachmodell)",
+      "titleEn": "Gemma 4 E4B (larger language model)",
+      "source": "https://huggingface.co/litert-community/gemma-4-E4B-it-litert-lm",
+      "minRamMb": 10000,
+      "optional": true,
+      "description": "Größer als E2B: etwas gründlichere Antworten, aber ungefähr halb so schnell und mit mehr Arbeitsspeicher. Empfohlen ab 12 GB RAM. Ersetzt E2B (nur eines ist aktiv).",
+      "descriptionEn": "Larger than E2B: somewhat more thorough answers, but about half as fast and needs more memory. Recommended from 12 GB RAM. Replaces E2B (only one is active).",
+      "version": "v4",
+      "fileName": "gemma-4-E4B-it.litertlm",
+      "size": 3659530240,
+      "sha256": "0b2a8980ce155fd97673d8e820b4d29d9c7d99b8fa6806f425d969b145bd52e0",
+      "license": "Apache-2.0",
+      "parts": [
+        {
+          "name": "gemma-4-E4B-it.litertlm.part1",
+          "size": 1073741824,
+          "sha256": "99ffd2179c3b697a20b1f3e180b2792a29272f221f5075d770dcb72db8e4661f",
+          "urls": [
+            "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v4/gemma-4-E4B-it.litertlm.part1"
+          ]
+        },
+        {
+          "name": "gemma-4-E4B-it.litertlm.part2",
+          "size": 1073741824,
+          "sha256": "f73c2243bf91eb31d3cc5d441d6fa5c1ecd30bec549774796206c3209b1b688c",
+          "urls": [
+            "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v4/gemma-4-E4B-it.litertlm.part2"
+          ]
+        },
+        {
+          "name": "gemma-4-E4B-it.litertlm.part3",
+          "size": 1073741824,
+          "sha256": "300838af07e8ec15964caa53d304bc09d0a628ca84a98586e65aca08964e7f16",
+          "urls": [
+            "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v4/gemma-4-E4B-it.litertlm.part3"
+          ]
+        },
+        {
+          "name": "gemma-4-E4B-it.litertlm.part4",
+          "size": 438304768,
+          "sha256": "d7b9832aee549b43c8c5d715bc435b4df811d2db48b2b5c38fe498b5fbb7d922",
+          "urls": [
+            "https://github.com/edgebird-lab/lernsystem-modelle/releases/download/v4/gemma-4-E4B-it.litertlm.part4"
           ]
         }
       ]
